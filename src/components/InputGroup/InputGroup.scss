@@ -1,0 +1,15 @@
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+
+  &__label {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    width: 100%;
+    line-height: 15.5px;
+    & + & {
+      margin-top: 20px;
+    }
+  }
+}
