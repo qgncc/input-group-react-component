@@ -6,10 +6,15 @@
     display: flex;
     flex-direction: column;
     font-size: 14px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
     width: 100%;
-    line-height: 15.5px;
+    line-height: 17px;
     & + & {
       margin-top: 20px;
     }
+  }
+  &__input {
+    margin-top: 1px;
   }
 }

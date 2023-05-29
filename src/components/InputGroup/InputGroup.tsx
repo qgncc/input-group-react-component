@@ -46,6 +46,7 @@ export function InputGroup({ controller, onChange }: IInputGroupProps) {
         labelProps={{
           className: "inputGroup__label",
         }}
+        className="inputGroup__input"
         onChange={changeHandler}
         {...collectProps(id, controller)}
       />
